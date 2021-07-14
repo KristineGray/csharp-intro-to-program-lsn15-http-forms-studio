@@ -32,20 +32,23 @@
     <form id="searchForm">
 
         <!--Create your form here!-->
-        <label>Query: </label>
-        <input type="text" name="q" />
-        
-        <label for="google">Google</label>
-        <input type="radio" name="engine" value="google" id="google"/>
-        
-        <label for="duckduckgo">DuckDuckGo</label>
-        <input type="radio" name="engine" value="duckduckgo" id="duckduckgo"/>
-        
-        <label for="bing">Bing</label>
-        <input type="radio" name="engine" value="bing" id="bing"/>
-        
-        <label for="ask">Ask</label>
-        <input type="radio" name="engine" value="ask" id="ask"/>
+        <div class="searchBar">
+            <label>Query: </label>
+            <input type="text" name="q" />
+        </div>
+        <div class="radioButtons">
+            <label for="google">Google</label>
+            <input type="radio" name="engine" value="google" id="google" />
+
+            <label for="duckduckgo">DuckDuckGo</label>
+            <input type="radio" name="engine" value="duckduckgo" id="duckduckgo" />
+
+            <label for="bing">Bing</label>
+            <input type="radio" name="engine" value="bing" id="bing" />
+
+            <label for="ask">Ask</label>
+            <input type="radio" name="engine" value="ask" id="ask" />
+        </div>
 
         <button value="Go!">Go!</button>
     </form>
