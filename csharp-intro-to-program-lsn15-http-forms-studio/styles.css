@@ -2,7 +2,9 @@
 {
     margin: 25px;
 }
-
+input[type="text"] {
+    width: 350px;
+}
 .radioButtons > label:nth-child(n + 2){
     padding-left: 30px;
 }
